@@ -1,0 +1,11 @@
+def generate_license_plates_test():
+    """Generate license plates with the AA0000 pattern."""
+    yield "01DBBH"
+    yield "77JBB1"
+    yield "74NTX9"
+    yield "17PJGL"
+    yield "01DBFJ"
+    yield "01DSHS"
+    yield "01DBVL"
+    yield "94BBX8"
+    yield "09WSND"
