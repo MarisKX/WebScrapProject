@@ -18,7 +18,7 @@ class Command(BaseCommand):
         current_year = date.today().year
         cutoff_year = current_year - 50
         yesterday = date.today() - timedelta(days=1)
-        one_hour_ago = date.now() - timedelta(days=2)
+        one_hour_ago = now() - timedelta(hours=13)
         print(Fore.GREEN + f"Current Year: {current_year}" + Style.RESET_ALL)
         print(Fore.GREEN + f"Check cars no older than: {cutoff_year}" + Style.RESET_ALL)
         print(Fore.GREEN + f"Yeasterday was: {yesterday}" + Style.RESET_ALL)

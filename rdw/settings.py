@@ -100,8 +100,8 @@ DATABASES = {
         "NAME": "rdw",
         "USER": "admin",
         "PASSWORD": "admin",
-        "HOST": "localhost",
-        "PORT": "5433",  # Use 5433 or your specific port
+        "HOST": "192.168.2.8",
+        "PORT": "5433",
     }
 }
 
